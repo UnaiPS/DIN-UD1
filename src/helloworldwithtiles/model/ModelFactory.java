@@ -10,5 +10,7 @@ package helloworldwithtiles.model;
  * @author 2dam
  */
 public class ModelFactory {
-    
+    public static Model getModel(){
+        return new ModelImplementation();
+    }
 }

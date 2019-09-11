@@ -10,5 +10,5 @@ package helloworldwithtiles.model;
  * @author 2dam
  */
 public interface Model {
-    
+    public String getGreeting ();
 }

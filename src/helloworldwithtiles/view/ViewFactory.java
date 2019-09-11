@@ -10,5 +10,7 @@ package helloworldwithtiles.view;
  * @author 2dam
  */
 public class ViewFactory {
-    
+    public static View getView(){
+        return new ViewImplementation();
+    }
 }

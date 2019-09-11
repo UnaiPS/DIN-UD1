@@ -10,5 +10,5 @@ package helloworldwithtiles.view;
  * @author 2dam
  */
 public interface View {
-    
+    public void showGreeting(String greeting);
 }

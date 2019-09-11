@@ -5,10 +5,16 @@
  */
 package helloworldwithtiles.controller;
 
+import helloworldwithtiles.model.Model;
+import helloworldwithtiles.view.View;
+
 /**
  *
  * @author 2dam
  */
 public class Controller {
-    
+    public void run (View view, Model model){
+        String greeting = model.getGreeting();
+        view.showGreeting(greeting);
+    }
 }
