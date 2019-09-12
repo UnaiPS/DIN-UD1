@@ -17,32 +17,16 @@ import static org.junit.Assert.*;
  * @author 2dam
  */
 public class ModelFactoryTest {
-    
-    public ModelFactoryTest() {
-    }
-    
-    @BeforeClass
-    public static void setUpClass() {
-    }
-    
-    @AfterClass
-    public static void tearDownClass() {
-    }
-    
-    @Before
-    public void setUp() {
-    }
-    
-    @After
-    public void tearDown() {
-    }
-
     /**
      * Test of getModel method, of class ModelFactory.
      */
     @Test
     public void testGetModel() {
-       
+       ModelFactory testModelFactory = new ModelFactory();
+       Model testModelResult = null;
+       testModelResult = testModelFactory.getModel();
+        assertNotNull("The method doesn't returns the model", testModelResult);
+        assertTrue("The objects aren't equal", testModelResult instanceof Model);
     }
     
 }
