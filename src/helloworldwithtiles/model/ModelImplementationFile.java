@@ -5,12 +5,16 @@
  */
 package helloworldwithtiles.model;
 
+import java.util.ResourceBundle;
+
 /**
  *
  * @author 2dam
  */
-public class ModelFactory {
-    public static Model getModel(){
-        return new ModelImplementationFile();
+public class ModelImplementationFile implements Model{
+    
+    @Override
+    public String getGreeting(){
+        return ResourceBundle.getBundle("helloworldwithtiles.model.greeting").getString("greeting");
     }
 }
