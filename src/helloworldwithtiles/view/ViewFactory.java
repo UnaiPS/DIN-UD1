@@ -11,6 +11,6 @@ package helloworldwithtiles.view;
  */
 public class ViewFactory {
     public static View getView(){
-        return new ViewImplementation();
+        return new JavaFXViewImplementation();
     }
 }
