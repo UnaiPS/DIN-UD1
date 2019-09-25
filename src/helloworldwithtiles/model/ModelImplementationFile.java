@@ -9,10 +9,14 @@ import java.util.ResourceBundle;
 
 /**
  *
- * @author 2dam
+ * @author Unai
  */
 public class ModelImplementationFile implements Model{
     
+    /**
+     * This method takes from the Model interface and get's a greeting
+     * @return return's a String with a greeting
+     */
     @Override
     public String getGreeting(){
         return ResourceBundle.getBundle("helloworldwithtiles.model.greeting").getString("greeting");

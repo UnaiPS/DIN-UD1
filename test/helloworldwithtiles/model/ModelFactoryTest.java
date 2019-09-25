@@ -14,7 +14,7 @@ import static org.junit.Assert.*;
 
 /**
  *
- * @author 2dam
+ * @author Unai
  */
 public class ModelFactoryTest {
     /**
@@ -25,8 +25,8 @@ public class ModelFactoryTest {
        ModelFactory testModelFactory = new ModelFactory();
        Model testModelResult = null;
        testModelResult = testModelFactory.getModel();
-        assertNotNull("The method doesn't returns the model", testModelResult);
-        assertTrue("The objects aren't equal", testModelResult instanceof Model);
+       assertNotNull("The method doesn't returns the model", testModelResult);
+       assertTrue("The objects aren't equal", testModelResult instanceof Model);
     }
     
 }

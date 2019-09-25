@@ -7,8 +7,12 @@ package helloworldwithtiles.view;
 
 /**
  *
- * @author 2dam
+ * @author Unai
  */
 public interface View {
+    /**
+     * This method is going to show a greeting
+     * @param greeting a String object
+     */
     public void showGreeting(String greeting);
 }

@@ -7,9 +7,13 @@ package helloworldwithtiles.view;
 
 /**
  *
- * @author 2dam
+ * @author Unai
  */
 public class ViewFactory {
+    /**
+     * This method is going to get the view from JavaFXViewImplementation class
+     * @return a View object
+     */
     public static View getView(){
         return new JavaFXViewImplementation();
     }

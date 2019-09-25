@@ -7,8 +7,12 @@ package helloworldwithtiles.model;
 
 /**
  *
- * @author 2dam
+ * @author Unai
  */
 public interface Model {
+    /**
+     * This method gets the greeting
+     * @return a String object
+     */
     public String getGreeting ();
 }

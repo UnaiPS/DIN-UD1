@@ -14,12 +14,16 @@ import static org.testfx.matcher.control.LabeledMatchers.hasText;
 
 /**
  *
- * @author 2dam
+ * @author Unai
  */
 public class FXMLDocumentControllerIT extends ApplicationTest {
-    private final String GREETING = "¡Hola Mundo!";
+    private final String GREETING = "Hello World";
     
-    
+    /**
+     * This method starts the test class
+     * @param stage a Stage object
+     * @throws Exception can throw a exception
+     */
     @Override
     public void start (Stage stage) throws Exception {
         JavaFXViewImplementation myapp = new JavaFXViewImplementation();
@@ -30,10 +34,12 @@ public class FXMLDocumentControllerIT extends ApplicationTest {
     
     
     public FXMLDocumentControllerIT() {}
-
+    /**
+     * This method tests the button of the application
+     */
     @Test
     public void testButtonClick () {
-        verifyThat("#label", hasText(GREETING));
+        verifyThat("#textLabel", hasText(GREETING));
         //clickOn("#button");
         //JavaFX Test no puede comprobar que se cierra la aplicacion.
     }

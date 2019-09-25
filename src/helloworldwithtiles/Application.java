@@ -13,7 +13,7 @@ import helloworldwithtiles.view.ViewFactory;
 
 /**
  * This class is meant to be the main application
- * @author 2dam
+ * @author Unai
  */
 public class Application {
     public static void main (String[] args){

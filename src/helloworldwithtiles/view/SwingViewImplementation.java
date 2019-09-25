@@ -8,10 +8,13 @@ package helloworldwithtiles.view;
 import javax.swing.*;
 /**
  *
- * @author 2dam
+ * @author Unai
  */
 public class SwingViewImplementation implements View{
-
+    /**
+     * This method shows the greeting on a JFrame window with a JOptionPane
+     * @param greeting a String object
+     */
     @Override
     public void showGreeting(String greeting) {
        JFrame window = new JFrame();

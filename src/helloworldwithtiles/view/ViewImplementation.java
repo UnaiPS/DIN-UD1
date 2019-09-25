@@ -7,9 +7,13 @@ package helloworldwithtiles.view;
 
 /**
  *
- * @author 2dam
+ * @author Unai
  */
 public class ViewImplementation implements View{
+    /**
+     * This method shows the greeting
+     * @param greeting a String object
+     */
     public void showGreeting(String greeting){
         System.out.println(greeting);
     }

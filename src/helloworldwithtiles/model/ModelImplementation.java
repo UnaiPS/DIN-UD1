@@ -7,9 +7,13 @@ package helloworldwithtiles.model;
 
 /**
  *
- * @author 2dam
+ * @author Unai
  */
 public class ModelImplementation implements Model{
+    /**
+     * This method get a greeting
+     * @return return's a String with a greeting
+     */
     public String getGreeting(){
         return "Hello World";
     }

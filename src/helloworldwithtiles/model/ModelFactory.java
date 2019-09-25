@@ -7,9 +7,13 @@ package helloworldwithtiles.model;
 
 /**
  *
- * @author 2dam
+ * @author Unai
  */
 public class ModelFactory {
+    /**
+     * This method gets the model from the implementation
+     * @return a Model object
+     */
     public static Model getModel(){
         return new ModelImplementationFile();
     }
